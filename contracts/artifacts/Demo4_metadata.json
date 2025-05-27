@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCurrentSize",
+				"outputs": [
+					{
+						"internalType": "enum Demo4.StarbucksSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurrentSize2",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurrentSize3",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultSize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Demo4.StarbucksSize",
+						"name": "pSize",
+						"type": "uint8"
+					}
+				],
+				"name": "setSize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setVenti",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "size",
+				"outputs": [
+					{
+						"internalType": "enum Demo4.StarbucksSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7_Demo4.sol": "Demo4"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7_Demo4.sol": {
+			"keccak256": "0x847762fb225b87ebafd6c58b1d326e68ab51a9ac96bf825aee832d51b54a90d2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a7b5342d99cb982778fffb69c67455faa53e355aab4481bcfc60157ac7183e50",
+				"dweb:/ipfs/QmevurUCCrhMB1FhpTVpDb7rAgb3fjqVJNQSTvv9pVyy5h"
+			]
+		}
+	},
+	"version": 1
+}
