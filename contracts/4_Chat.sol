@@ -2,7 +2,6 @@
 pragma solidity ^0.7.4;
 contract Chat {
     string public message;
-    int public a;
 
     constructor(string memory initialMessage) {
         message = initialMessage;
