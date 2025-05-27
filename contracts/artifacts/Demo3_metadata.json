@@ -80,6 +80,64 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "arrayTest5",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					}
+				],
+				"name": "arrayTest6",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "arrayTest7",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -110,11 +168,11 @@
 	},
 	"sources": {
 		"contracts/6_Demo3.sol": {
-			"keccak256": "0xf79a8398ebac3d88b88d1a4e8cba30697aae9984b7278abb1a08441f6e0f6dfb",
+			"keccak256": "0x5c4209853f2cb7167efc1ff9d4be7d6f4d2d4eebcd58b13cb0c03fd741799348",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://15fe388d9d7ad8300e7ef2171d22c5a248a3fe186f7efe003b4fcb82f0674883",
-				"dweb:/ipfs/QmcPgFAAJWBn5yi38W6jKimAQ5Pf3hy6WZmTpma77wKzx1"
+				"bzz-raw://f8769981d5584aceb30e822e52a61c6eb9c482b48e970b13e93a9158656ee05b",
+				"dweb:/ipfs/QmR2Lf9gE8HHoiz8GB9o1gwMaBkfDZS1YX8az8QgwyPyp8"
 			]
 		}
 	},

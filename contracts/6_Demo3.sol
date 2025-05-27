@@ -36,4 +36,23 @@ contract Demo3 {
         a[6] = 155;
         return a;
     }
+
+    uint256[] public members = new uint256[](5);
+
+    function arrayTest5() public {
+        members[0] = 2;
+        members[1] = 4;
+        members[2] = 6;
+        members[3] = 8;
+        members[4] = 200;
+        members.push(300);
+    }
+
+    function arrayTest6(uint256 idx) public view returns (uint256) {
+        return members[idx];
+    }
+
+    function arrayTest7() public view returns (uint256[] memory) {
+        return members;
+    }
 }
