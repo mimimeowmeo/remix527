@@ -4,32 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "pa",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "pb",
-						"type": "uint256"
-					}
-				],
-				"name": "getResult",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -43,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/5_Demo2.sol": "Demo2"
+			"contracts/6_Demo3.sol": "Demo2"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -57,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/5_Demo2.sol": {
-			"keccak256": "0xe2fd50ad01c73a76c3a48304a9d5541e6718476aabef3b5284391ccec3b7d9d0",
+		"contracts/6_Demo3.sol": {
+			"keccak256": "0xcfef7848a606df4b6059b02e3940ba1826c06d2c1dff4cef9b613a6d7839ccc5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ecaabf0f4f572c939258da1ab03665de2d0dc2f2f31f1356b97405433c48709f",
-				"dweb:/ipfs/QmW5BjbS8XXQ1sneqDEnk2TZkvJxC8q21gHSh57PPY4xqP"
+				"bzz-raw://3645654e6fd4f0d25d27a718af79e152afe82f5288b612426e95793bf3da92b8",
+				"dweb:/ipfs/QmWP14N6dRoVqW9t78CbLoySBwrcYFTjEAmVgskjYgvcQP"
 			]
 		}
 	},
