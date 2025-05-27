@@ -1,0 +1,172 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "currentCourse",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "duration",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCourse",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "id",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "duration",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct Demo5.Course",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCourseId",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setCurrentCourse",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "id",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "duration",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct Demo5.Course",
+						"name": "c",
+						"type": "tuple"
+					}
+				],
+				"name": "setCurrentCourse2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "duration",
+						"type": "uint8"
+					}
+				],
+				"name": "setCurrentCourse3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_Demo5.sol": "Demo5"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_Demo5.sol": {
+			"keccak256": "0x95920f4b114f43f5d5e2bbf3cec467ca9ac77a543b267404b75c4ab233aa384e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://06890d7871365adc4c2cae1649d484f962b6cad0fc3a54986878fe48f9ff6d70",
+				"dweb:/ipfs/Qmd9tWkqx5ardaVkA9cLsvtYk6NgPFzidpgp8uGwKB1fLQ"
+			]
+		}
+	},
+	"version": 1
+}
