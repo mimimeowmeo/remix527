@@ -18,19 +18,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "getMessage",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "message",
 				"outputs": [
 					{
@@ -84,11 +71,11 @@
 	},
 	"sources": {
 		"contracts/4_Chat.sol": {
-			"keccak256": "0x13663c69099a2238b81657f0fcfb402801b2d6e0f0b5a1eaa0a69a453844832c",
+			"keccak256": "0x2f4ad0b97a65c4a44157003b4a4062fcb03a156c2f8015b4c7feeced0e6bab2d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cb492b404614602418e4593004bc2f1d2f6f44cba652d7de57778ddd924f67a9",
-				"dweb:/ipfs/Qmf89zV8faZN3PoWRUvkTX5c8YjPNAYwM4KZ9QrvC5VpqX"
+				"bzz-raw://78af984deddc8abd8d695081223cea16706a4c50e45f6b99ac2bb51b586d2e64",
+				"dweb:/ipfs/QmdQFtXFQGf45Wb6YkXFYCujLiRMkupWbYrj4gAktbo1XY"
 			]
 		}
 	},

@@ -11,7 +11,7 @@ contract Chat {
         message = newMessage;
     }
 
-    function getMessage() public view returns (string memory) {
-        return message;
-    }
+    // function getMessage() public view returns (string memory) {
+    //     return message;
+    // }
 }
