@@ -3,9 +3,11 @@ pragma solidity ^0.7.4;
 
 contract Demo6 {
     mapping(address => uint256) public balances;
+    address public contractAddress;
 
     constructor(uint256 initBalance) {
         balances[address(this)] = initBalance;
+        contractAddress = address(this);
     }
 
     // Can't return a mapping directly.

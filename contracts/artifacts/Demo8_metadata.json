@@ -4,7 +4,13 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +39,11 @@
 	},
 	"sources": {
 		"contracts/11_Demo8.sol": {
-			"keccak256": "0x8420c39c845e8a847e4779e25aedc7cce2ef5650ee4d97d56ebcc6f3abd84e92",
+			"keccak256": "0x67b5340b617f9fbf8d530d319f4540ada07dfdc32d52b56fce720b53f2982d75",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c1cb7e796c27ca227a8e5b68dd78c59ee72d8c41ce7193a9e947060af75abd1c",
-				"dweb:/ipfs/QmYPP3TjDArr6m8jdd36DTXazrezfkU4zYQJZCYCy3hii8"
+				"bzz-raw://2dbd823d4e2483069c306bf8b6fd17809d791dd49565cfb9e8f654cd56c7283e",
+				"dweb:/ipfs/QmPsvYW9YCmFbBA3JWDDu2FbTnSWmVxzDKxzA4cygyVJJe"
 			]
 		}
 	},

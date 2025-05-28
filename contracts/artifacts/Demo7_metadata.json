@@ -4,7 +4,62 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMultiple1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMultiple2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMultiple3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/11_Demo8.sol": "Demo7"
+			"contracts/10_Demo7.sol": "Demo7"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -32,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/11_Demo8.sol": {
-			"keccak256": "0xa449375f3c0e06f17ad1a4ea983c9aa57f1d1efc3c64c2d86a52d47e3044abb3",
+		"contracts/10_Demo7.sol": {
+			"keccak256": "0x48d8b43cada89a1495bed230f572bf56c8326bc3e339d35983a9c9f9fedcbaad",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dff347d1f201aee1e1aebaf6c6b813d1f28490d835cbf8317fc7e0c6ad803138",
-				"dweb:/ipfs/QmXsSyvuZszWJMy3FzhS1fYS6bkYHwZ2C74iR3W5C6dk9W"
+				"bzz-raw://d264f5321cabbb8b7d89742cc498205919ec986247ce92284d139f1406d31794",
+				"dweb:/ipfs/Qmb2Cdk159bQiiiMQ3c3jCLAoHPR1dQ8ZERJhWvCqxxjQJ"
 			]
 		}
 	},

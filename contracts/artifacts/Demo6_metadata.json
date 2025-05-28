@@ -37,6 +37,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "contractAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getContractBalance",
 				"outputs": [
 					{
@@ -103,11 +116,11 @@
 	},
 	"sources": {
 		"contracts/9_Demo6.sol": {
-			"keccak256": "0x62917e285fab728c6b59a37d92d0efdc348214f5bc7a54ecc846160bde9bceb2",
+			"keccak256": "0x9243201a4126e02d43b362cd24edafac6e56b9eb62138f66048f7c3b12c864d9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8924401f481e341d6569005f0b29e4d5bfc5ca6d5666db391de93b211180c9a1",
-				"dweb:/ipfs/QmVZmaZSZ2djeMvQHHJ6mg47LjRJTT1UrXTP661pxatWJN"
+				"bzz-raw://34af95b77c02e36531f95616ecaa9fe9754a537702beac4c87ad51facb311404",
+				"dweb:/ipfs/QmfV1x3Dvq459FJmV6TqDNPXCGjStY4MtEYr7xRvBMpBp5"
 			]
 		}
 	},
