@@ -8,6 +8,13 @@ contract Demo6 {
         balances[address(this)] = initBalance;
     }
 
+    // Can't return a mapping directly.
+    // function getBalances()
+    //     public
+    //     view
+    //     returns (mapping(address => uint256) memory)
+    // {}
+
     function updateSelfAccountBalance(uint256 newBalance) public {
         balances[msg.sender] = newBalance;
     }
