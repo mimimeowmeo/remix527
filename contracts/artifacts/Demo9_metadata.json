@@ -56,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/12_Demo9.sol": "Demo9"
+			"contracts/15_Demo10.sol": "Demo9"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -70,7 +70,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/12_Demo9.sol": {
+		"contracts/15_Demo10.sol": {
 			"keccak256": "0xe03d7064edaf35b5baf40794f1ac0e99223b8e8b844c392fa462fb69450c1ebc",
 			"license": "GPL-3.0",
 			"urls": [
